@@ -1,0 +1,45 @@
+.logo-image{
+  width: 100px;
+  height : 80px;
+  
+}
+header{
+  max-width: 100%;
+  display:flex;
+  align-items: center;
+  
+
+}
+ul{
+  list-style: none;
+  display:flex;
+  justify-content: space-around;
+  
+}
+nav{
+  width:100%;
+  
+}
+@media only screen and (max-width:600px){
+  nav{
+    display:none;
+  }
+}
+h1{
+  font-size: 40px;
+  color: red;
+  font-family: serif;
+}
+li{
+  font-size: 30px;
+}
+li:hover{
+  background-color: black;
+}
+a:visited{
+  color: lime;
+}
+a:link{
+  color:lime;
+}
+
